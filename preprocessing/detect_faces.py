@@ -1,16 +1,11 @@
 import argparse
 import json
 import os
-import numpy as np
-from typing import Type
 from torch.utils.data.dataloader import DataLoader
 from tqdm import tqdm
 import torch
-import face_detector
-from face_detector import VideoDataset
-from face_detector import VideoFaceDetector, FacenetDetector
+from face_detector import VideoDataset, FacenetDetector
 from utils import get_video_paths, get_method_from_name
-import argparse
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
