@@ -1,0 +1,14 @@
+training:
+  lr: 0.001
+  weight-decay: 0.001
+  bs: 32
+  scheduler: 'steplr'
+  gamma: 0.1
+  step-size: 15
+  rebalancing_fake: 2
+  rebalancing_real: 8
+  frames-per-video: 20
+
+model:
+  efficient_net_channels: 1280
+  image-size: 224
