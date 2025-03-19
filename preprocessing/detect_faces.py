@@ -1,3 +1,4 @@
+# Thanks to https://github.com/davide-coccomini/Combining-EfficientNet-and-Vision-Transformers-for-Video-Deepfake-Detection
 import argparse
 import json
 import os
